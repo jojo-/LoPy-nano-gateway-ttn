@@ -10,5 +10,6 @@ The parameters of the gateway are defined in the `config.py` file. You must also
 
 If you have some issue to connect a Multitech MTDOT node with AT commands, you probably need to
 - set `AT+JD=5` so that the node is waiting 5 seconds before starting listening for a response from the gateway;
-- and make sure that the node is using the same channel as the gateway, e.g. `AT+CHM=0,4000` for 918 Mhz
-before trying to join the network. Have a look [here](https://forum.pycom.io/topic/1262/nodes-unable-to-join-ttn-via-lopy-nano-gateway/) for more details.
+- and make sure that the node is using the same channel as the gateway, e.g. `AT+CHM=0,4000` for 918 Mhz before, trying to join the network. 
+
+Have a look [here](https://forum.pycom.io/topic/1262/nodes-unable-to-join-ttn-via-lopy-nano-gateway/) for more details.
